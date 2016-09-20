@@ -1,0 +1,12 @@
+{
+  "name": "Snapix/skeleton",
+  "description": "Simple php/js/HTML project skeleton with routing, MySQL operations, (very simple) templates and more.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alexander Guskov",
+      "email": "mail@snapix.ru"
+    }
+  ]
+}
