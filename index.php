@@ -2,13 +2,15 @@
 
 define('ROOTPATH', dirname(__DIR__)); // define("ROOT", $_SERVER['DOCUMENT_ROOT']);
 
+define('PATH', isset($_GET['path']) ? $_GET['path'] : false);
+
 include_once(ROOTPATH . "/engine/classes/App.php");
 
 $app = new App();
 
-if (isset($_GET['path']))
+if (PATH)
 {
-    switch ($_GET['path'])
+    switch (PATH)
     {
         case "404":
             $title = "404";
