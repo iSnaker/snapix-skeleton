@@ -1,5 +1,5 @@
 {
-  "name": "Snapix/skeleton",
+  "name": "snapix/skeleton",
   "description": "Simple php/js/HTML project skeleton with routing, MySQL operations, (very simple) templates and more.",
   "minimum-stability": "stable",
   "license": "proprietary",
