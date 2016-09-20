@@ -1,0 +1,20 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+
+RewriteRule ^([А-Яа-яA-Za-z0-9-_]+)$ index.php?path=$1
+#RewriteRule ^painting/([А-Яа-яA-Za-z0-9-_]+)$ index.php?path=$1
+#RewriteRule ^project/([А-Яа-яA-Za-z0-9-_]+)$ index.php?project=$1
+
+#RewriteRule ^admin/projects/edit/([0-9-_]+)$ admin/index.php?action=edit_project&id=$1
+#RewriteRule ^admin/projects/hide/([0-9-_]+)$ admin/index.php?action=hide_project&project_id=$1
+#RewriteRule ^admin/projects/show/([0-9-_]+)$ admin/index.php?action=show_project&project_id=$1
+#RewriteRule ^admin/projects/delete/([0-9-_]+)$ admin/index.php?action=remove_project&project_id=$1
+#RewriteRule ^admin/projects/add$ admin/index.php?action=add_project
+
+
+
+ErrorDocument 404 /404
+AddDefaultCharset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml

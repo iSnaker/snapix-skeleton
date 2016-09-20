@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic);
+
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.mt-none {margin-top: 0}
+.mb-none {margin-bottom: 0}
+
+.mb-xlg {margin-bottom: 2em}
+.mt-xlg {margin-top: 2em}
+
+.mt-lg {margin-top: 1em}
+.mb-lg {margin-bottom: 1em}
+
+.mt-md {margin-top: 0.6em}
+.mb-md {margin-bottom: 0.6em}
+
+footer{background: #3a3a3a}
+footer nav a{color: #fff}
